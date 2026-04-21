@@ -1,6 +1,7 @@
 import heroBg from "@/assets/hero-bg.jpg";
 import { ArrowRight, Github, Sparkles } from "lucide-react";
 import { useEffect, useState } from "react";
+import { WavyAccent } from "./WavyAccent";
 
 const roles = ["AI Engineer", "Full-Stack Developer", "Problem Solver", "Code Architect"];
 
