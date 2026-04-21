@@ -3,7 +3,6 @@ import { Link } from "react-router-dom";
 import { CursorGlow } from "@/components/portfolio/CursorGlow";
 import { Navbar } from "@/components/portfolio/Navbar";
 import { Footer } from "@/components/portfolio/Footer";
-import { WavyAccent } from "@/components/portfolio/WavyAccent";
 import { useEffect } from "react";
 
 const webApps = [
