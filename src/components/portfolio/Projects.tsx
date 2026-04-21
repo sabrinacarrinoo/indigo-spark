@@ -1,4 +1,5 @@
-import { ArrowUpRight, Github } from "lucide-react";
+import { ArrowRight, ArrowUpRight, Github } from "lucide-react";
+import { Link } from "react-router-dom";
 
 const projects = [
   {
