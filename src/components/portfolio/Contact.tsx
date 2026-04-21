@@ -31,9 +31,9 @@ export const Contact = () => {
 
             <div className="mt-10 space-y-4">
               {[
-                { i: Mail, l: "hello@aurora.dev", h: "mailto:hello@aurora.dev" },
-                { i: Linkedin, l: "linkedin.com/in/aurora-vega", h: "#" },
-                { i: Github, l: "github.com/auroravega", h: "#" },
+                { i: Mail, l: "hello@sabrina.dev", h: "mailto:hello@sabrina.dev" },
+                { i: Linkedin, l: "linkedin.com/in/sabrina", h: "#" },
+                { i: Github, l: "github.com/sabrina", h: "#" },
               ].map((c) => (
                 <a
                   key={c.l}

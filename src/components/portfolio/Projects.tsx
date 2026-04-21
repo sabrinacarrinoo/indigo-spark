@@ -1,4 +1,5 @@
-import { ArrowUpRight, Github } from "lucide-react";
+import { ArrowRight, ArrowUpRight, Github } from "lucide-react";
+import { Link } from "react-router-dom";
 
 const projects = [
   {
@@ -114,6 +115,16 @@ export const Projects = () => (
             </div>
           </article>
         ))}
+      </div>
+
+      <div className="mt-12 flex justify-center">
+        <Link
+          to="/web-apps"
+          className="group inline-flex items-center gap-2 rounded-full glass border border-primary/40 px-7 py-3.5 font-medium text-foreground hover:border-primary hover:glow-primary transition-smooth"
+        >
+          See all web apps
+          <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-1" />
+        </Link>
       </div>
     </div>
   </section>

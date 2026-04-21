@@ -1,12 +1,14 @@
 import { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
 import { cn } from "@/lib/utils";
 
 const links = [
-  { href: "#about", label: "About" },
-  { href: "#skills", label: "Skills" },
-  { href: "#projects", label: "Projects" },
-  { href: "#identity", label: "Manifesto" },
-  { href: "#contact", label: "Contact" },
+  { href: "/#about", label: "About" },
+  { href: "/#skills", label: "Skills" },
+  { href: "/#projects", label: "Projects" },
+  { href: "/web-apps", label: "Web Apps" },
+  { href: "/#identity", label: "Manifesto" },
+  { href: "/#contact", label: "Contact" },
 ];
 
 export const Navbar = () => {
@@ -35,9 +37,9 @@ export const Navbar = () => {
         >
           <a href="#home" className="flex items-center gap-2 font-display font-bold text-lg">
             <span className="relative flex h-8 w-8 items-center justify-center rounded-lg bg-gradient-primary glow-primary">
-              <span className="font-mono text-sm">A</span>
+              <span className="font-mono text-sm">S</span>
             </span>
-            <span className="text-gradient">aurora.dev</span>
+            <span className="text-gradient">sabrina.dev</span>
           </a>
 
           <ul className="hidden md:flex items-center gap-8">
