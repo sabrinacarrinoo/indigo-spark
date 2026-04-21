@@ -54,9 +54,9 @@ export const Hero = () => {
             <span className="h-1.5 w-1.5 rounded-full bg-emerald-400 animate-pulse-glow" />
           </div>
 
-          <h1 className="font-display font-bold text-5xl sm:text-7xl lg:text-8xl tracking-tight leading-[1.05] mb-6 animate-fade-up" style={{ animationDelay: "0.1s" }}>
+          <h1 className="font-display font-bold text-6xl sm:text-7xl lg:text-8xl tracking-tight leading-[1.05] mb-6 animate-fade-up" style={{ animationDelay: "0.1s" }}>
             <span className="block text-foreground/90">Sabrina</span>
-            <span className="block text-gradient animate-gradient bg-gradient-neon bg-clip-text text-transparent">
+            <span className="block text-[7rem] leading-none sm:text-7xl lg:text-8xl text-gradient animate-gradient bg-gradient-neon bg-clip-text text-transparent">
               .dev
             </span>
           </h1>
