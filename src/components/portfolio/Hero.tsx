@@ -55,9 +55,9 @@ export const Hero = () => {
           </div>
 
           <h1 className="font-display font-bold text-5xl sm:text-7xl lg:text-8xl tracking-tight leading-[1.05] mb-6 animate-fade-up" style={{ animationDelay: "0.1s" }}>
-            <span className="block text-foreground/90">Aurora</span>
+            <span className="block text-foreground/90">Sabrina</span>
             <span className="block text-gradient animate-gradient bg-gradient-neon bg-clip-text text-transparent">
-              Vega
+              .dev
             </span>
           </h1>
 

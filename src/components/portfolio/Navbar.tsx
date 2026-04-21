@@ -35,9 +35,9 @@ export const Navbar = () => {
         >
           <a href="#home" className="flex items-center gap-2 font-display font-bold text-lg">
             <span className="relative flex h-8 w-8 items-center justify-center rounded-lg bg-gradient-primary glow-primary">
-              <span className="font-mono text-sm">A</span>
+              <span className="font-mono text-sm">S</span>
             </span>
-            <span className="text-gradient">aurora.dev</span>
+            <span className="text-gradient">sabrina.dev</span>
           </a>
 
           <ul className="hidden md:flex items-center gap-8">
