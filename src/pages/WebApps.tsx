@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import { CursorGlow } from "@/components/portfolio/CursorGlow";
 import { Navbar } from "@/components/portfolio/Navbar";
 import { Footer } from "@/components/portfolio/Footer";
+import { WavyAccent } from "@/components/portfolio/WavyAccent";
 import { useEffect } from "react";
 
 const webApps = [
@@ -95,12 +96,16 @@ const WebApps = () => {
               <span className="h-1.5 w-1.5 rounded-full bg-emerald-400 animate-pulse-glow" />
             </div>
 
-            <h1 className="font-display font-bold text-5xl sm:text-7xl tracking-tight leading-[1.05] mb-6 animate-fade-up" style={{ animationDelay: "0.1s" }}>
+            <h1 className="font-display font-bold text-5xl sm:text-7xl tracking-tight leading-[1.05] mb-4 animate-fade-up" style={{ animationDelay: "0.1s" }}>
               <span className="block text-foreground/90">Web Apps</span>
               <span className="block text-gradient animate-gradient bg-gradient-neon bg-clip-text text-transparent">
                 I build & ship.
               </span>
             </h1>
+
+            <div className="max-w-md mb-8 animate-fade-up" style={{ animationDelay: "0.15s" }}>
+              <WavyAccent strokeWidth={3} />
+            </div>
 
             <p className="text-lg sm:text-xl text-muted-foreground max-w-2xl mb-8 animate-fade-up" style={{ animationDelay: "0.2s" }}>
               A collection of <span className="text-foreground font-medium">web applications</span> I've designed and developed —
