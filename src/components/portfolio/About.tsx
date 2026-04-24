@@ -25,7 +25,7 @@ export const About = () => (
             </p>
             <p>
               From neural nets to pixel-perfect interfaces, I treat every line of code as a
-              creative act. Logic is the canvas. Intuition is the brush.
+              creative act. 
             </p>
             <p className="font-mono text-sm text-primary-glow/80">
               <span className="text-muted-foreground">// </span>currently exploring agentic systems & generative UI
